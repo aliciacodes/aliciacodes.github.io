@@ -2,6 +2,7 @@
 layout: post
 title:  "Codecademy Challenge"
 date:   2020-06-03 13:00:00 -0400
+published: false
 categories: codecademy
 ---
 I love to challenge myself. So, I decided to kick off this blog by giving myself a challenge to complete the Computer Science Track on Codecademy. 
