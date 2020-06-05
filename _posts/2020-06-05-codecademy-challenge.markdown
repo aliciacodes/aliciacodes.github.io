@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Codecademy Challenge"
-date:   2020-06-04 13:00:00 -0400
+date:   2020-06-05 
 published: false
 categories: codecademy
 ---
