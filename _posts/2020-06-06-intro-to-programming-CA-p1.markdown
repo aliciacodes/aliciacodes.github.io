@@ -5,6 +5,8 @@ date:   2020-06-06
 categories: codecademy
 ---
 ![Alt Text](https://imgs.xkcd.com/comics/python.png)
+
+<br>
 Welcome to the first day of the Codecademy challenge! Obviously, I'll be starting from the very beginning in the "Introduction to Programming" section. There are two sections syntax and functions. I'll be tackling syntax first.
 
 # An Overview
