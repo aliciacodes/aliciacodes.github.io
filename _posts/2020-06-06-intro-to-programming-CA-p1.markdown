@@ -4,6 +4,7 @@ title:  "Introduction to Python Syntax"
 date:   2020-06-06
 categories: codecademy
 ---
+<<<<<<< HEAD
 
 Welcome to the first day of the Codecademy challenge! Obviously, I'll be starting from the very beginning in the "Introduction to Programming" section. There are two sections syntax and functions. I'll be tackling syntax first.
 
@@ -34,3 +35,5 @@ The project utilized string concatenations, arithmetic operations, variable assi
 Pretty much all of this basic information can be learned from the free <a href = "https://www.codecademy.com/learn/learn-python/modules/learn-python-python-syntax-u-6">Python 2 Syntax</a> course that Codecademy has to offer. The main difference between between the courses is that print function doesn't have parenthesis in Python 2 as it does in Python 3. To supplement the quiz, you can use the Anki cards above or take a Python quiz on <a href = "https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON">W3Schools</a>. A good substitute for the project is one I have made specifically for this blog based upon the material covered in this blog post (<a href = "https://github.com/aliciacodes/python-projects/blob/master/geocaching/geocaching.md">link</a>). Don't be afraid to contact me or submit a pull request if you find any errors in the instructions! 
 
 And that's Day 1 of the Computer Science Track. Thanks for joining me today and I hope to see you tomorrow!
+=======
+>>>>>>> 594afdd2751fe59040bb2c52ed00527baa16fcd0
