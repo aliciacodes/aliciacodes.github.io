@@ -4,8 +4,7 @@ title:  "Introduction to Python Syntax"
 date:   2020-06-06
 categories: codecademy
 ---
-<<<<<<< HEAD
-
+![Alt Text](https://imgs.xkcd.com/comics/python.png)
 Welcome to the first day of the Codecademy challenge! Obviously, I'll be starting from the very beginning in the "Introduction to Programming" section. There are two sections syntax and functions. I'll be tackling syntax first.
 
 # An Overview
@@ -36,4 +35,4 @@ Pretty much all of this basic information can be learned from the free <a href =
 
 And that's Day 1 of the Computer Science Track. Thanks for joining me today and I hope to see you tomorrow!
 =======
->>>>>>> 594afdd2751fe59040bb2c52ed00527baa16fcd0
+
