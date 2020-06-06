@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-02T16:26:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">aliciacodes</title><subtitle>A fun and awesome coding journey!</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-05T22:45:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">aliciacodes</title><subtitle>A daily coding blogger</subtitle><entry><title type="html">Codecademy Challenge</title><link href="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html" rel="alternate" type="text/html" title="Codecademy Challenge" /><published>2020-06-05T00:00:00-04:00</published><updated>2020-06-05T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/05/codecademy-challenge</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html">&lt;p&gt;I love to challenge myself. So, I decided to kick off this blog by giving myself a challenge to complete the Computer Science Track on Codecademy. 
+In this track, I will be learning&lt;/p&gt;
+
+&lt;u1&gt;
+    &lt;li&gt;Python&lt;/li&gt;
+    &lt;li&gt;Git&lt;/li&gt;
+    &lt;li&gt;Recursion&lt;/li&gt;
+    &lt;li&gt;Linked Lists&lt;/li&gt;
+    &lt;li&gt;Stacks&lt;/li&gt;
+    &lt;li&gt;Queues&lt;/li&gt;
+    &lt;li&gt;Trees&lt;/li&gt;
+    &lt;li&gt;Hash Maps&lt;/li&gt;
+    &lt;li&gt;and much more...&lt;/li&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+    According to the Codecademy website, this track will take about ~200 hours to complete. I realize it is unrealistic for many to take this track (Codecademy costs $240 a year) so I will be offering free alternatives that will give a similar experience. I will also be taking notes 
+and giving additional resources to those who want to learn alongside me. 
+&lt;br /&gt;
+&lt;br /&gt;
+    Starting tomorrow, I will be posting updates daily while I work towards completing this. I hope you will join me!
+&lt;/u1&gt;</content><author><name></name></author><summary type="html">I love to challenge myself. So, I decided to kick off this blog by giving myself a challenge to complete the Computer Science Track on Codecademy. In this track, I will be learning</summary></entry></feed>
