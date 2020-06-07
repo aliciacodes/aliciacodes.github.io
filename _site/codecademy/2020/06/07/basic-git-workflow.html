@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Basic Git Workflow | aliciacodes</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Basic Git Workflow" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows." />
+<meta property="og:description" content="Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows." />
+<link rel="canonical" href="http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html" />
+<meta property="og:url" content="http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html" />
+<meta property="og:site_name" content="aliciacodes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-07T00:00:00-04:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html"},"datePublished":"2020-06-07T00:00:00-04:00","headline":"Basic Git Workflow","dateModified":"2020-06-07T00:00:00-04:00","description":"Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows.","url":"http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="aliciacodes" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">aliciacodes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Basic Git Workflow</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-06-07T00:00:00-04:00" itemprop="datePublished">Jun 7, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows.</p>
+
+<p>In this section, there is one lesson, two projects, a quiz, and two articles. Down below, I will summarize the lesson and the two projects. The articles are teaching the user how to get set up with Github and I will link them down below.</p>
+
+<h1 id="git-workflow-notes">Git Workflow Notes</h1>
+<p>In this section, we learned about Git. Git tracks changes you make to a project, stores the change, and will reference that change when needed.</p>
+
+<p>There are three parts to every project:</p>
+<ol>
+  <li>A Working Directory: All the creating, editing, deleting, and organizing of files happens here.</li>
+  <li>A Staging Directory: Lists changes made to working directory.</li>
+  <li>Repository: Git stores changes permanently and creates a new version or revision of the project.</li>
+</ol>
+
+<p>The typical workflow of a Git project goes like this:</p>
+<ol>
+  <li>Edit a file in the working (current) directory</li>
+  <li>You add files to the staging area</li>
+  <li>Saving changes to a Git repo using commits.</li>
+</ol>
+
+<p>During this section, six commands were learned to master this system.</p>
+<ul>
+    <li> git init - Turns current directory into a Git project and you can start tracking changes.</li>
+    <li> git status - See whether files are added (committed) to Git or not in the staging directory.</li>
+    <li> git add filename - Adds files from staging to working directory.</li>
+    <li> git diff filename - shows difference between working and staging area. In the output, if there is a `+` and green text then tat means there is a change to the file. If the text is red that means it is untracked and needs to be commited if you want to add the repository.</li>
+    <li> git commit -m "Commit message" - Stores file changes from staging area and moves it to your repository. You must have a commit message and with these messages, you must put it in quotation marks, write it in the present tense, and should be 50 characters or less.</li>
+    <li>git log - Lists all previous changes. In the output, there should be a 40-character code, called a SHA that identifies the commit. Then the commit author, date and time, and the message is displayed.</li>
+</ul>
+
+<h1 id="the-projects-and-quiz">The Projects and Quiz</h1>
+<p>In this section, there were two projects. The first, the Manhattan Zoo only dealt with one text file. In this project, you initialized a git repository (<code class="highlighter-rouge">git init</code>), checked the status (<code class="highlighter-rouge">git status</code>), and edited a text file that contained meal regiments for the zoo animals. In Git, it is important to note that once a text file is edited you must add it to the staging area again (using <code class="highlighter-rouge">git add filename</code>) and then you can commit again (using the structure <code class="highlighter-rouge">git commit -m "put anything here</code>). Once you add, you can check the status again using <code class="highlighter-rouge">git status</code>. After commiting, you can look at the most recent commit using <code class="highlighter-rouge">git log</code>.</p>
+
+<p>In the next project, it was much of the same except there were multiple files in the working directory. It is pretty much the same as the Manhattan Zoo. To add multiple files, you can use <code class="highlighter-rouge">git add .</code> and then commit like you did before.</p>
+
+<p>The quiz was much the same. There were questions like “What does the command <code class="highlighter-rouge">git status</code> show?” and “What is a <code class="highlighter-rouge">commit</code>?”</p>
+
+<h1 id="articles">Articles</h1>
+<p><a href="https://www.codecademy.com/articles/f1-u3-git-setup">Here</a> is a link of how to setup your computer with Git and a Github account!</p>
+
+<h1 id="free-alternatives">Free Alternatives</h1>
+<p>Since this is a pro module, you cannot learn this material on Codecademy without shelling out $240. I would recommend reading the chapter 2.1 and 2.2 of <a href="https://git-scm.com/book/en/v2">Pro Git</a>. It goes even more in-depth than this Codecademy module and is incredibly useful. In order to learn these materials, I would recommend making your own flashcards and using Github and Git. While you are learning, use this <a href="https://education.github.com/git-cheat-sheet-education.pdf">cheatsheet</a>.</p>
+
+  </div><a class="u-url" href="/codecademy/2020/06/07/basic-git-workflow.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">aliciacodes</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">aliciacodes</li><li><a class="u-email" href="mailto:aliciacodes01@gmail.com">aliciacodes01@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/aliciacodes"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">aliciacodes</span></a></li><li><a href="https://www.twitter.com/alicia_codes"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">alicia_codes</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A daily coding blogger</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

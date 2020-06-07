@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-05T22:45:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">aliciacodes</title><subtitle>A daily coding blogger</subtitle><entry><title type="html">Codecademy Challenge</title><link href="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html" rel="alternate" type="text/html" title="Codecademy Challenge" /><published>2020-06-05T00:00:00-04:00</published><updated>2020-06-05T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/05/codecademy-challenge</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html">&lt;p&gt;I love to challenge myself. So, I decided to kick off this blog by giving myself a challenge to complete the Computer Science Track on Codecademy. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-07T16:05:08-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">aliciacodes</title><subtitle>A daily coding blogger</subtitle><entry><title type="html">Introduction to Python Functions</title><link href="http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html" rel="alternate" type="text/html" title="Introduction to Python Functions" /><published>2020-06-07T00:00:00-04:00</published><updated>2020-06-07T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html">&lt;p&gt;Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions.&lt;/p&gt;
+
+&lt;p&gt;In this module, we’ll have a lesson, a quiz, and a project. Let’s do this!&lt;/p&gt;
+
+&lt;h1 id=&quot;the-lesson-on-python-functions&quot;&gt;The Lesson on Python Functions&lt;/h1&gt;
+&lt;p&gt;My notes are pretty in-depth and included activities that I did throughout the lesson. You can access the notes &lt;a href=&quot;https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/python-functions.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the lesson, we learned about how functions are just a collection of lines of code that we can repeat over and over again. The simple formula for writing a function header is &lt;code class=&quot;highlighter-rouge&quot;&gt;def&lt;/code&gt; + function name + parenthesis + colon (&lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt;).  After this line, all lines below have to be indented, anything not indented is not part of the function. Here is an example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def function_name():
+	some code
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You can add arguments to these functions to modify their operations by adding a variable in between the parenthesis. These are called parameters, and are defined like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def greet (weather):
+    print(&quot;Hello!&quot;)
+    print(&quot;It is &quot; + weather + &quot; today.&quot;)
+    print(&quot;Have a great day!&quot;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;And now you must call the function with that argument.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;greet(&quot;rainy&quot;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You can have multiple parameters and even set a default value for them.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def greet(weather = &quot;rainy&quot;, time_of_day) #not valid
+
+def greet(weather, time_of_day = &quot;day&quot;) #valid
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Functions can return values so they can be modified later, These function values are saved in a variable.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# a function with return statement
+def multiply_by_two(number):
+	return number * 2
+# saving result to a variable
+result = multiply_by_two(6) #result in variable is 12
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can return multiple values and save them to multiple variables.&lt;/p&gt;
+
+&lt;p&gt;```
+def multi(num1,num2):
+    num1 = num1 * 2
+    num2 = num2 / 4
+    return num1, num2
+result1, result2 = multi(3, 8)
+``
+And that’s a really concise summary of what happened this module. If you want a more in-depth review, look at the summary!&lt;/p&gt;
+
+&lt;h1 id=&quot;the-quiz&quot;&gt;The Quiz&lt;/h1&gt;
+&lt;p&gt;Again, the questions on the quiz are pretty basic and I’ve provided my own version of them &amp;lt;a href = https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/Codecademy-Python-3-Functions.apkg&amp;gt;here&amp;lt;/a&amp;gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-project&quot;&gt;The Project&lt;/h1&gt;
+&lt;p&gt;The project was mostly just creating mathematical functions based upon Physics problems and saving the return value into variables. You can find that &lt;a href=&quot;https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/getting-ready-for-physics-class.py&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h1&gt;
+&lt;p&gt;Most of the information in this module is contained in &lt;a href=&quot;https://www.codecademy.com/learn/learn-python/modules/learn-python-functions-u-4&quot;&gt;Python 2 Functions&lt;/a&gt; module. Before taking this module, I would recommend taking &lt;a href=&quot;https://www.codecademy.com/learn/learn-python/modules/learn-python-conditionals-and-control-flow-u-4&quot;&gt; Python 2 Conditionals and Control Flow &lt;/a&gt;. This course has a bit more extraneous material that are specific to Python 2. However, it still good to learn this stuff since a lot of knowledge is transferrable.&lt;/p&gt;
+
+&lt;p&gt;Thanks for joining me for Day 2. I just finished the Introduction to Programming module and am moving onto Development Skills. So,for the next few days the focus will be on learning terminal commands and Git. Currently, I am about 4% of the way through the course so I still have a ways to go. Join me tomorrow to learn the basics of the terminal.&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions.</summary></entry><entry><title type="html">Basic Git Workflow</title><link href="http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html" rel="alternate" type="text/html" title="Basic Git Workflow" /><published>2020-06-07T00:00:00-04:00</published><updated>2020-06-07T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/07/basic-git-workflow</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/07/basic-git-workflow.html">&lt;p&gt;Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows.&lt;/p&gt;
+
+&lt;p&gt;In this section, there is one lesson, two projects, a quiz, and two articles. Down below, I will summarize the lesson and the two projects. The articles are teaching the user how to get set up with Github and I will link them down below.&lt;/p&gt;
+
+&lt;h1 id=&quot;git-workflow-notes&quot;&gt;Git Workflow Notes&lt;/h1&gt;
+&lt;p&gt;In this section, we learned about Git. Git tracks changes you make to a project, stores the change, and will reference that change when needed.&lt;/p&gt;
+
+&lt;p&gt;There are three parts to every project:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;A Working Directory: All the creating, editing, deleting, and organizing of files happens here.&lt;/li&gt;
+  &lt;li&gt;A Staging Directory: Lists changes made to working directory.&lt;/li&gt;
+  &lt;li&gt;Repository: Git stores changes permanently and creates a new version or revision of the project.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The typical workflow of a Git project goes like this:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Edit a file in the working (current) directory&lt;/li&gt;
+  &lt;li&gt;You add files to the staging area&lt;/li&gt;
+  &lt;li&gt;Saving changes to a Git repo using commits.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;During this section, six commands were learned to master this system.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; git init - Turns current directory into a Git project and you can start tracking changes.&lt;/li&gt;
+    &lt;li&gt; git status - See whether files are added (committed) to Git or not in the staging directory.&lt;/li&gt;
+    &lt;li&gt; git add filename - Adds files from staging to working directory.&lt;/li&gt;
+    &lt;li&gt; git diff filename - shows difference between working and staging area. In the output, if there is a `+` and green text then tat means there is a change to the file. If the text is red that means it is untracked and needs to be commited if you want to add the repository.&lt;/li&gt;
+    &lt;li&gt; git commit -m &quot;Commit message&quot; - Stores file changes from staging area and moves it to your repository. You must have a commit message and with these messages, you must put it in quotation marks, write it in the present tense, and should be 50 characters or less.&lt;/li&gt;
+    &lt;li&gt;git log - Lists all previous changes. In the output, there should be a 40-character code, called a SHA that identifies the commit. Then the commit author, date and time, and the message is displayed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-projects-and-quiz&quot;&gt;The Projects and Quiz&lt;/h1&gt;
+&lt;p&gt;In this section, there were two projects. The first, the Manhattan Zoo only dealt with one text file. In this project, you initialized a git repository (&lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;), checked the status (&lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt;), and edited a text file that contained meal regiments for the zoo animals. In Git, it is important to note that once a text file is edited you must add it to the staging area again (using &lt;code class=&quot;highlighter-rouge&quot;&gt;git add filename&lt;/code&gt;) and then you can commit again (using the structure &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;put anything here&lt;/code&gt;). Once you add, you can check the status again using &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt;. After commiting, you can look at the most recent commit using &lt;code class=&quot;highlighter-rouge&quot;&gt;git log&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the next project, it was much of the same except there were multiple files in the working directory. It is pretty much the same as the Manhattan Zoo. To add multiple files, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; and then commit like you did before.&lt;/p&gt;
+
+&lt;p&gt;The quiz was much the same. There were questions like “What does the command &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; show?” and “What is a &lt;code class=&quot;highlighter-rouge&quot;&gt;commit&lt;/code&gt;?”&lt;/p&gt;
+
+&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.codecademy.com/articles/f1-u3-git-setup&quot;&gt;Here&lt;/a&gt; is a link of how to setup your computer with Git and a Github account!&lt;/p&gt;
+
+&lt;h1 id=&quot;free-alternatives&quot;&gt;Free Alternatives&lt;/h1&gt;
+&lt;p&gt;Since this is a pro module, you cannot learn this material on Codecademy without shelling out $240. I would recommend reading the chapter 2.1 and 2.2 of &lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;Pro Git&lt;/a&gt;. It goes even more in-depth than this Codecademy module and is incredibly useful. In order to learn these materials, I would recommend making your own flashcards and using Github and Git. While you are learning, use this &lt;a href=&quot;https://education.github.com/git-cheat-sheet-education.pdf&quot;&gt;cheatsheet&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Today’s Day 4 of the Computer Science Path. Right now, I’m in the second part of the Development Skills module in Basic Git Workflows.</summary></entry><entry><title type="html">Introduction to Python Syntax</title><link href="http://localhost:4000/codecademy/2020/06/06/intro-to-programming-CA-p1.html" rel="alternate" type="text/html" title="Introduction to Python Syntax" /><published>2020-06-06T00:00:00-04:00</published><updated>2020-06-06T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/06/intro-to-programming-CA-p1</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/06/intro-to-programming-CA-p1.html">&lt;p&gt;Welcome to the first day of the Codecademy challenge! Obviously, I’ll be starting from the very beginning in the “Introduction to Programming” section. There are two sections syntax and functions. I’ll be tackling syntax first.&lt;/p&gt;
+
+&lt;h1 id=&quot;an-overview&quot;&gt;An Overview&lt;/h1&gt;
+&lt;p&gt;In this section, I’ll be tackling Python syntax.&lt;/p&gt;
+
+&lt;p&gt;The syntax section includes a video, a lesson, a quiz, and project. I have uploaded the materials to a public Github repository that is accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;Let’s get started!&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-the-computer-science-track&quot;&gt;What is the Computer Science Track?&lt;/h1&gt;
+&lt;p&gt;The program starts with an essential in-depth view of Python. Python is essential for data science, machine learning, and AI. It’s also the world’s most popular programming language. Throughout the course, Python will be used to learn the fundamentals of computer science. Understanding these foundational concepts will help you master technical interviews and put you on the right track for a career in software development. The course will then progress into data structures once enough Python is introduced. Data structures are tools to solve problems in computer science such as keeping track of the lowest value in a set of data (use heaps). With the data structures, you will be able to build complex algorithms in Python and in other programming languages. The concepts learned will be extensible to other data structures.&lt;/p&gt;
+
+&lt;p&gt;This introduction is somewhat vague and has a lot of technical jargon. I’ll break it down as we go. Now that we’ve finished the video intro to the course, let’s dive into the material.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-lesson-on-python-syntax&quot;&gt;A Lesson on Python Syntax&lt;/h1&gt;
+&lt;p&gt;My notes on this are pretty lengthy (over 3,000 words) and include the activities that were presented during the lesson. You can access my notes &lt;a href=&quot;https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-1/learn-python-3-syntax.md&quot;&gt; here. &lt;/a&gt;
+In this section, the material covered involved comments, print() function, strings, variables, errors, integers, floating points, arithmetic operators, modulo, string concatentation, and the += operator.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-quiz&quot;&gt;The Quiz&lt;/h1&gt;
+&lt;p&gt;The quiz mostly asked basic multiple choice questions such as “How do you combine two strings?”. I made my own versions of the question on Anki. In order to access these flashcards, just download the Anki app on your machine and download them from &lt;a href=&quot;https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-1/Codecademy-Python-3-Syntax.apkg&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-project&quot;&gt;The Project&lt;/h1&gt;
+&lt;p&gt;The project utilized string concatenations, arithmetic operations, variable assignments, and strings. All in all, it was a pretty basic project. You can look it over &lt;a href=&quot;https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-1/lovely-loveseats.py&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h1&gt;
+&lt;p&gt;Pretty much all of this basic information can be learned from the free &lt;a href=&quot;https://www.codecademy.com/learn/learn-python/modules/learn-python-python-syntax-u-6&quot;&gt;Python 2 Syntax&lt;/a&gt;  and &lt;a href=&quot;https://www.codecademy.com/learn/learn-python/modules/learn-python-strings-and-console-output-u-4&quot;&gt;Python 2 Strings and Console Output&lt;/a&gt; courses that Codecademy has to offer. The main difference between between the courses is that print function doesn’t have parenthesis in Python 2 as it does in Python 3 and comments are defined using &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;. To supplement the quiz, you can use the Anki cards above or take a Python quiz on &lt;a href=&quot;https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON&quot;&gt;W3Schools&lt;/a&gt;. A good substitute for the project is one I have made specifically for this blog based upon the material covered in this blog post (&lt;a href=&quot;https://github.com/aliciacodes/python-projects/blob/master/geocaching/geocaching.md&quot;&gt;link&lt;/a&gt;). Don’t be afraid to contact me or submit a pull request if you find any errors in the instructions or think you can help improve this project!&lt;/p&gt;
+
+&lt;p&gt;And that’s Day 1 of the Computer Science Track. Thanks for joining me today and I hope to see you tomorrow!&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the first day of the Codecademy challenge! Obviously, I’ll be starting from the very beginning in the “Introduction to Programming” section. There are two sections syntax and functions. I’ll be tackling syntax first.</summary></entry><entry><title type="html">Codecademy Challenge</title><link href="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html" rel="alternate" type="text/html" title="Codecademy Challenge" /><published>2020-06-05T00:00:00-04:00</published><updated>2020-06-05T00:00:00-04:00</updated><id>http://localhost:4000/codecademy/2020/06/05/codecademy-challenge</id><content type="html" xml:base="http://localhost:4000/codecademy/2020/06/05/codecademy-challenge.html">&lt;p&gt;I love to challenge myself. So, I decided to kick off this blog by giving myself a challenge to complete the Computer Science Track on Codecademy. 
 In this track, I will be learning&lt;/p&gt;
 
 &lt;u1&gt;

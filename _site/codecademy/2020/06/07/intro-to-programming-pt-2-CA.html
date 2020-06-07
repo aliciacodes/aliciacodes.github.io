@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Introduction to Python Functions | aliciacodes</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Introduction to Python Functions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions." />
+<meta property="og:description" content="Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions." />
+<link rel="canonical" href="http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html" />
+<meta property="og:url" content="http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html" />
+<meta property="og:site_name" content="aliciacodes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-07T00:00:00-04:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html"},"datePublished":"2020-06-07T00:00:00-04:00","headline":"Introduction to Python Functions","dateModified":"2020-06-07T00:00:00-04:00","description":"Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions.","url":"http://localhost:4000/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="aliciacodes" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">aliciacodes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Introduction to Python Functions</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-06-07T00:00:00-04:00" itemprop="datePublished">Jun 7, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Welcome to day 2 of the Codecademy challenge! We are now in the second part of the “Introduction to Programming” module. Today we’ll be covering functions.</p>
+
+<p>In this module, we’ll have a lesson, a quiz, and a project. Let’s do this!</p>
+
+<h1 id="the-lesson-on-python-functions">The Lesson on Python Functions</h1>
+<p>My notes are pretty in-depth and included activities that I did throughout the lesson. You can access the notes <a href="https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/python-functions.md">here</a>.</p>
+
+<p>In the lesson, we learned about how functions are just a collection of lines of code that we can repeat over and over again. The simple formula for writing a function header is <code class="highlighter-rouge">def</code> + function name + parenthesis + colon (<code class="highlighter-rouge">:</code>).  After this line, all lines below have to be indented, anything not indented is not part of the function. Here is an example:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def function_name():
+	some code
+
+</code></pre></div></div>
+<p>You can add arguments to these functions to modify their operations by adding a variable in between the parenthesis. These are called parameters, and are defined like so:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def greet (weather):
+    print("Hello!")
+    print("It is " + weather + " today.")
+    print("Have a great day!")
+
+</code></pre></div></div>
+<p>And now you must call the function with that argument.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>greet("rainy")
+
+</code></pre></div></div>
+<p>You can have multiple parameters and even set a default value for them.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def greet(weather = "rainy", time_of_day) #not valid
+
+def greet(weather, time_of_day = "day") #valid
+
+</code></pre></div></div>
+<p>Functions can return values so they can be modified later, These function values are saved in a variable.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># a function with return statement
+def multiply_by_two(number):
+	return number * 2
+# saving result to a variable
+result = multiply_by_two(6) #result in variable is 12
+</code></pre></div></div>
+
+<p>You can return multiple values and save them to multiple variables.</p>
+
+<p>```
+def multi(num1,num2):
+    num1 = num1 * 2
+    num2 = num2 / 4
+    return num1, num2
+result1, result2 = multi(3, 8)
+``
+And that’s a really concise summary of what happened this module. If you want a more in-depth review, look at the summary!</p>
+
+<h1 id="the-quiz">The Quiz</h1>
+<p>Again, the questions on the quiz are pretty basic and I’ve provided my own version of them &lt;a href = https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/Codecademy-Python-3-Functions.apkg&gt;here&lt;/a&gt;.</p>
+
+<h1 id="the-project">The Project</h1>
+<p>The project was mostly just creating mathematical functions based upon Physics problems and saving the return value into variables. You can find that <a href="https://github.com/aliciacodes/codecademy-notes/blob/master/computer-science-track/section-2/getting-ready-for-physics-class.py">here</a></p>
+
+<h1 id="alternatives">Alternatives</h1>
+<p>Most of the information in this module is contained in <a href="https://www.codecademy.com/learn/learn-python/modules/learn-python-functions-u-4">Python 2 Functions</a> module. Before taking this module, I would recommend taking <a href="https://www.codecademy.com/learn/learn-python/modules/learn-python-conditionals-and-control-flow-u-4"> Python 2 Conditionals and Control Flow </a>. This course has a bit more extraneous material that are specific to Python 2. However, it still good to learn this stuff since a lot of knowledge is transferrable.</p>
+
+<p>Thanks for joining me for Day 2. I just finished the Introduction to Programming module and am moving onto Development Skills. So,for the next few days the focus will be on learning terminal commands and Git. Currently, I am about 4% of the way through the course so I still have a ways to go. Join me tomorrow to learn the basics of the terminal.</p>
+
+  </div><a class="u-url" href="/codecademy/2020/06/07/intro-to-programming-pt-2-CA.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">aliciacodes</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">aliciacodes</li><li><a class="u-email" href="mailto:aliciacodes01@gmail.com">aliciacodes01@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/aliciacodes"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">aliciacodes</span></a></li><li><a href="https://www.twitter.com/alicia_codes"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">alicia_codes</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A daily coding blogger</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
