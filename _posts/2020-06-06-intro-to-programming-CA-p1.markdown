@@ -4,7 +4,12 @@ title:  "Introduction to Python Syntax"
 date:   2020-06-06
 categories: codecademy
 ---
+<<<<<<< HEAD
+=======
+![Alt Text](https://imgs.xkcd.com/comics/python.png)
+>>>>>>> 3bef49838b59a7f3bfd1f6214ad05835a5e11b75
 
+<br>
 Welcome to the first day of the Codecademy challenge! Obviously, I'll be starting from the very beginning in the "Introduction to Programming" section. There are two sections syntax and functions. I'll be tackling syntax first.
 
 # An Overview
