@@ -152,6 +152,8 @@ For this project, there was a pre-existing variable called `last_semester_gradeb
 
 This project was a bit more vague than the last one due to the confusing fifth step that was included. If they had worded that part differently than this project may have gone differently.  
 
+# Free Alternatives
+Codecademy's Python 2 module on <a href = "https://www.codecademy.com/learn/learn-python/modules/learn-python-lists--dictionaries-u-3">lists and dictionaries</a> has slightly similar materials(`insert` was used instead of `append`), but this module is poorly developed in comparison to their Python 3 course. So, take that at your own risk. Instead, I would recommend looking at this page from Google's Intro to Python course <a href = "https://developers.google.com/edu/python/lists"> here </a>. It is a little more advanced, but it gives you challenges to make sure you master the material. NOTE: To do the Google Course, you must have Python setup on your computer. A guide to do that is <a href = "https://developers.google.com/edu/python/set-up">here</a>. 
 
 
 Anyway, that's all for today! Be ready for a longer blog post tomorrow, since I'll be tackling the harder part of this module. 
