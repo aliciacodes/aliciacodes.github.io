@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Python Lists Part 1"
+date:   2020-06-12
+categories: codecademy
+---
+
 Welcome to day 7! This is the second part of Python Lists. In this, part I'll cover the remaining portion of the activity: 1 quiz, 1 project, 2 articles, and the video. 
 
 
