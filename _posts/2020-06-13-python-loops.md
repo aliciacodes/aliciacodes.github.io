@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Boredless Tourist"
+title:  "Python Loops"
 date:   2020-06-13
 categories: codecademy
 ---
