@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Lists Part 1"
+title:  "Python Lists Part 2"
 date:   2020-06-12
 categories: codecademy
 ---
