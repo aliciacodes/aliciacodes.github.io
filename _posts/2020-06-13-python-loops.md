@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Boredless Tourist"
+date:   2020-06-13
+categories: codecademy
+---
+
 Welcome to day 8! Today, we're finally finishing the "Flow, Data, and Iteration" module. We'll be working on Python loops. 
 
 In this section, there are two lessons, a quiz, and a project.
