@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Boredless Tourist"
-date:   2020-06-12
+date:   2020-06-14
 categories: codecademy
 ---
 Welcome to day nine! Today, we're tackling "The Boredless Tourist" project, our first project in the series. In the project, we're expected to use the knowledge of Python, Git, and the command line to create a recommendation service for tourists kind of like Yelp, but much simpler. Overall the things I practiced were:
