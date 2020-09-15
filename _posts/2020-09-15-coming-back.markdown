@@ -4,7 +4,9 @@ title:  "Coming Back"
 date:   2020-09-15
 categories: codecademy
 ---
+<p align="center">
 ![Futurama GIF](https://i.imgur.com/lRlbxe4.gif)
+</p>
 
 
 
